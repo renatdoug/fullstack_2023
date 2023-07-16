@@ -1,0 +1,7 @@
+sequenceDiagram
+    Browser->>+Server: GET https://studies.cs.helsinki.fi/exampleapp/spa
+    Server-->>-Browser: 200
+    Browser->>+Server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+    Server-->>-Browser: 200
+    Browser->>+Server: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+    Server-->>-Browser: 200
